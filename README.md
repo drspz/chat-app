@@ -6,7 +6,7 @@
 | -------- | ------ | ----------- |
 | name     | string | null: false |    
 | email    | string | null: false |
-| password | string | null: false |
+| password | string | null: false |  
 
 ### Association
 - has_many :room_users
@@ -35,7 +35,7 @@
 
 - belongs_to :room
 - belongs_to :user
-
+  
 ## messages テーブル
 
 | Column  | Type    | Options                        |
