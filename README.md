@@ -14,7 +14,7 @@
 - has_many :messages      
   
 ## rooms テーブル
-
+  
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
 | name  | string | null: false |
